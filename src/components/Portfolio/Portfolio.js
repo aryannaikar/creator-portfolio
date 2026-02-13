@@ -10,13 +10,14 @@ import cinematicsImg from "../../assets/images/cinematics.png";
 import introductionImg from "../../assets/images/introduction.png";
 import shortFilmsImg from "../../assets/images/short films.png";
 import shortFormImg from "../../assets/images/short form.png";
+import longFormImg from "../../assets/images/long form.png";
 
 const projects = [
   {
     title: "Long Form",
     category: "video",
     views: "Content Editing",
-    img: shortFormImg, // Using short form image as placeholder for long form
+    img: longFormImg, 
     link: "https://www.behance.net/gallery/181517213/Content-Editing"
   },
   {
