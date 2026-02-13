@@ -21,6 +21,23 @@ footer span {
   letter-spacing: -1px;
 }
 
+.behance-icon {
+  font-weight: 900;
+  font-size: 20px;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.behance-logo-img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  transition: filter 0.3s ease;
+}
+
+.socials a:hover .behance-logo-img {
+  filter: invert(1) brightness(2);
+}
+
 .socials {
   display: flex;
   justify-content: center;

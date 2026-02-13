@@ -7,12 +7,13 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 import "./Footer.css";
+import behanceLogo from "../../assets/images/behance.png";
 
 export default function Footer() {
   const socialLinks = [
     { href: "https://x.com/indominus1x", label: "X / Twitter", icon: <Twitter />, tooltip: "X / Twitter" },
     { href: "https://www.linkedin.com/in/amaanmirza1", label: "LinkedIn", icon: <Linkedin />, tooltip: "LinkedIn" },
-    { href: "https://www.behance.net/amaanmirza3", label: "Behance", icon: <span className="behance-icon">Be</span>, tooltip: "Behance Portfolio" },
+    { href: "https://www.behance.net/amaanmirza3", label: "Behance", icon: <img src={behanceLogo} alt="Behance" className="behance-logo-img" />, tooltip: "Behance Portfolio" },
     { href: "https://youtube.com/@indominuss", label: "YouTube", icon: <Youtube />, tooltip: "YouTube Channel" },
     { href: "mailto:amaanmirza0413@gmail.com", label: "Email", icon: <Mail />, tooltip: "amaanmirza0413@gmail.com" },
     { href: "https://wa.me/919833097622", label: "WhatsApp", icon: <MessageCircle />, tooltip: "WhatsApp Chat" }
