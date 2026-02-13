@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/creator-portfolio/static/css/main.39a41f7e.css",
-    "main.js": "/creator-portfolio/static/js/main.44938638.js",
+    "main.js": "/creator-portfolio/static/js/main.16af839b.js",
     "static/media/pfp.png": "/creator-portfolio/static/media/pfp.1dde9b46e5662de95880.png",
     "static/media/PHOTOGRAPHY.png": "/creator-portfolio/static/media/PHOTOGRAPHY.3c92a6b4818bc3a89049.png",
     "static/media/GAMING.png": "/creator-portfolio/static/media/GAMING.651197cad474c5415327.png",
     "static/media/cinematics.png": "/creator-portfolio/static/media/cinematics.36c7f2dc0b66bca40cb1.png",
     "static/media/short films.png": "/creator-portfolio/static/media/short films.01d6b05efabe3d6a7320.png",
+    "static/media/long form.png": "/creator-portfolio/static/media/long form.b7e69aeb090787cfe5f9.png",
     "static/media/BRAND VIDEOS.png": "/creator-portfolio/static/media/BRAND VIDEOS.fbf2ea47f873c695f179.png",
     "static/media/introduction.png": "/creator-portfolio/static/media/introduction.4fc8fb0203e1ba56ac78.png",
     "static/media/short form.png": "/creator-portfolio/static/media/short form.eb33e764244d053b2ffc.png",
     "static/media/MUSIC VIDEOS.png": "/creator-portfolio/static/media/MUSIC VIDEOS.c9f43c030e38f8617ecb.png",
     "index.html": "/creator-portfolio/index.html",
     "main.39a41f7e.css.map": "/creator-portfolio/static/css/main.39a41f7e.css.map",
-    "main.44938638.js.map": "/creator-portfolio/static/js/main.44938638.js.map"
+    "main.16af839b.js.map": "/creator-portfolio/static/js/main.16af839b.js.map"
   },
   "entrypoints": [
     "static/css/main.39a41f7e.css",
-    "static/js/main.44938638.js"
+    "static/js/main.16af839b.js"
   ]
 }
