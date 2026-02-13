@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 import "./Portfolio.css";
 
 // Import local images
@@ -11,6 +12,7 @@ import introductionImg from "../../assets/images/introduction.png";
 import shortFilmsImg from "../../assets/images/short films.png";
 import shortFormImg from "../../assets/images/short form.png";
 import longFormImg from "../../assets/images/long form.png";
+import cinematicImg from "../../assets/images/VIDEOGRAPHY.png";
 
 const projects = [
   {
@@ -52,7 +54,7 @@ const projects = [
     title: "Cinematography",
     category: "video",
     views: "Camera Work",
-    img: cinematicsImg, // Using cinematics image for cinematography
+    img: cinematicImg,
     link: "https://www.behance.net/gallery/236982605/Cinematography"
   },
   {
@@ -110,10 +112,24 @@ const Projects = () => {
 
   return (
     <section id="portfolio" className="projects-section">
-      <h2 className="section-title">My Work</h2>
+      <motion.h2
+        className="section-title"
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        viewport={{ once: false, amount: 0.3 }}
+      >
+        My Work
+      </motion.h2>
 
       {/* CATEGORY BUTTONS */}
-      <div className="category-buttons">
+      <motion.div
+        className="category-buttons"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.2, ease: "easeOut" }}
+        viewport={{ once: false, amount: 0.3 }}
+      >
         {categories.map((cat, index) => (
           <button
             key={index}
@@ -123,16 +139,24 @@ const Projects = () => {
             {cat.toUpperCase()}
           </button>
         ))}
-      </div>
+      </motion.div>
 
       <div className="projects-grid">
         {filteredProjects.map((project, index) => (
-          <a
+          <motion.a
             key={index}
             href={project.link}
             target="_blank"
             rel="noopener noreferrer"
             className="project-card"
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              duration: 0.6,
+              delay: index * 0.1,
+              ease: [0.25, 0.46, 0.45, 0.94]
+            }}
+            viewport={{ once: false, amount: 0.2 }}
           >
             <BehanceIcon />
             <img src={project.img} alt={project.title} />
@@ -140,7 +164,7 @@ const Projects = () => {
               <h3>{project.title}</h3>
               <p>{project.views}</p>
             </div>
-          </a>
+          </motion.a>
         ))}
       </div>
     </section>

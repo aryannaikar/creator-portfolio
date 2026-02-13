@@ -10,15 +10,15 @@ export default function About() {
         alt="Amaan Mirza"
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.6 }}
-        viewport={{ once: true }}
+        transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
+        viewport={{ once: false, amount: 0.3 }}
       />
 
       <motion.div
         initial={{ opacity: 0, x: 50 }}
         whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.6 }}
-        viewport={{ once: true }}
+        transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
+        viewport={{ once: false, amount: 0.3 }}
       >
         <h2>Amaan Mirza</h2>
         <h4>Available for Freelance</h4>
@@ -30,13 +30,13 @@ export default function About() {
         </p>
 
         <p>
-          I’m a Mumbai based filmmaker, video editor, and content creator who believes storytelling should feel real not manufactured. From shooting short films on a phone with limited resources to crafting cinematic brand content and high retention YouTube videos, I focus on creativity over convenience.
+          I'm a Mumbai based filmmaker, video editor, and content creator who believes storytelling should feel real not manufactured. From shooting short films on a phone with limited resources to crafting cinematic brand content and high retention YouTube videos, I focus on creativity over convenience.
         </p>
         <p>
-          I’ve worked across directing, cinematography, editing, and scripting, collaborating with influencers, producing sponsored projects, and managing social media campaigns with a premium, cinematic approach. My style is heavily inspired by character driven storytelling and grounded visuals, blending emotion, humor, and realism into every frame.
+          I've worked across directing, cinematography, editing, and scripting, collaborating with influencers, producing sponsored projects, and managing social media campaigns with a premium, cinematic approach. My style is heavily inspired by character driven storytelling and grounded visuals, blending emotion, humor, and realism into every frame.
         </p>
         <p>
-          Whether it’s a narrative short film, a branded piece, or digital content, my goal is simple:
+          Whether it's a narrative short film, a branded piece, or digital content, my goal is simple:
           make people feel something before they even realize why.
         </p>
 
