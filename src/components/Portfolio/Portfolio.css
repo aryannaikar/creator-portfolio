@@ -147,12 +147,12 @@
   object-fit: contain;
   background: #000000;
   transition: transform 0.5s ease;
-  filter: grayscale(100%);
+  filter: grayscale(0%);
 }
 
 .project-card:hover img {
   transform: scale(1.1);
-  filter: grayscale(0%);
+  filter: grayscale(100%);
 }
 
 .overlay {
