@@ -25,7 +25,7 @@ export default function Hero() {
           Creating Content <br />
           <span>That Converts</span>
         </h1>
-        <p>Creative direction, Video editing & Social media visuals daalde</p>
+        <p>Creative direction, Video editing & Social media visuals </p>
       </motion.div>
     </section>
   );
