@@ -34,7 +34,10 @@ export default function About() {
           and creators scale their digital presence through powerful visuals.
         </p>
 
-        <button className="hire-btn">Hire Me</button>
+        <a href="#contact" className="hire-btn">
+          <button>Hire Me</button>
+        </a>
+
       </motion.div>
     </section>
   );

@@ -1,48 +1,91 @@
 .stats {
   text-align: center;
+  background: #000000;
+  padding: 100px 40px;
 }
 
 .stats h2 {
-  font-size: 44px;
-  margin-bottom: 60px;
+  font-size: 60px;
+  margin-bottom: 80px;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: -2px;
 }
 
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
-  gap: 32px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .stat-card {
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(255,255,255,0.1);
-  padding: 32px;
-  border-radius: 16px;
-  transition: 0.3s;
+  background: #ffffff;
+  color: #000000;
+  border: 3px solid #000000;
+  padding: 50px 30px;
+  border-radius: 0;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.stat-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  transition: left 0.4s ease;
+  z-index: 0;
+}
+
+.stat-card:hover::before {
+  left: 0;
 }
 
 .stat-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 20px 40px rgba(168,85,247,0.25);
+  transform: scale(1.05);
+  color: #ffffff;
+}
+
+.stat-card>* {
+  position: relative;
+  z-index: 1;
 }
 
 .icon {
-  width: 64px;
-  height: 64px;
-  margin: 0 auto 20px;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 30px;
   display: grid;
   place-items: center;
-  border-radius: 12px;
+  border-radius: 0;
+  background: #000000;
+  color: #ffffff;
+  font-size: 40px;
+  transition: all 0.4s ease;
 }
 
-.icon.blue { background: rgba(59,130,246,0.2); }
-.icon.purple { background: rgba(168,85,247,0.2); }
-.icon.orange { background: rgba(249,115,22,0.2); }
+.stat-card:hover .icon {
+  background: #ffffff;
+  color: #000000;
+}
 
 .stat-card h3 {
-  font-size: 48px;
+  font-size: 64px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 .stat-card p {
-  color: #9ca3af;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }

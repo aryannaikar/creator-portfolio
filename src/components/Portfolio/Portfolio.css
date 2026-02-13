@@ -1,133 +1,210 @@
 .portfolio {
   text-align: center;
+  background: #000000;
+  padding: 100px 40px;
+}
+
+.portfolio h2 {
+  font-size: 60px;
+  margin-bottom: 60px;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: -2px;
 }
 
 .filters {
   display: flex;
-  gap: 16px;
+  gap: 20px;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 48px;
+  margin-bottom: 60px;
 }
 
 .filters button {
-  padding: 8px 20px;
-  border-radius: 999px;
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(255,255,255,0.2);
+  padding: 12px 30px;
+  border-radius: 0;
+  background: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.filters button:hover {
+  background: #ffffff;
+  color: #000000;
 }
 
 .filters .active {
-  background: linear-gradient(90deg,#3b82f6,#a855f7);
+  background: #ffffff;
+  color: #000000;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
-  gap: 32px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .card {
   position: relative;
-  background: #1e293b;
-  border-radius: 16px;
+  background: #ffffff;
+  border: 4px solid #000000;
+  border-radius: 0;
   overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 20px 20px 0 #ffffff;
 }
 
 .card img {
   width: 100%;
-  height: 200px;
+  height: 280px;
   object-fit: cover;
+  filter: grayscale(100%);
+  transition: all 0.4s ease;
+}
+
+.card:hover img {
+  filter: grayscale(0%);
+  transform: scale(1.05);
 }
 
 .card .badge {
   position: absolute;
-  top: 12px;
-  right: 12px;
-  background: rgba(0,0,0,0.7);
-  padding: 4px 10px;
-  border-radius: 999px;
+  top: 20px;
+  right: 20px;
+  background: #000000;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 0;
   font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 2;
 }
 
 .card h3 {
-  padding: 16px;
+  padding: 30px 20px;
+  font-size: 24px;
+  font-weight: 900;
+  color: #000000;
+  font-family: 'Space Grotesk', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -1px;
 }
 
 .projects-section {
-  padding: 80px 10%;
-  background: #0f0f0f;
+  padding: 100px 40px;
+  background: #000000;
   color: white;
 }
 
 .section-title {
   text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 50px;
+  font-size: 60px;
+  margin-bottom: 80px;
+  font-weight: 900;
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: -2px;
 }
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .project-card {
   position: relative;
   overflow: hidden;
-  border-radius: 15px;
+  border-radius: 0;
   text-decoration: none;
   color: white;
-  transition: transform 0.3s ease;
+  transition: transform 0.4s ease;
+  border: 4px solid #ffffff;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
 }
 
 .project-card img {
   width: 100%;
-  height: 300px;
+  height: 350px;
   object-fit: cover;
   transition: transform 0.5s ease;
+  filter: grayscale(100%);
 }
 
 .project-card:hover img {
   transform: scale(1.1);
+  filter: grayscale(0%);
 }
 
 .overlay {
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding: 20px;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+  padding: 30px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.95), transparent);
 }
 
 .overlay h3 {
   margin: 0;
-  font-size: 1.4rem;
+  font-size: 28px;
+  font-weight: 900;
+  font-family: 'Space Grotesk', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -1px;
 }
 
 .overlay p {
-  margin: 5px 0 0;
-  font-size: 0.9rem;
-  opacity: 0.8;
+  margin: 10px 0 0;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .category-buttons {
   text-align: center;
-  margin-bottom: 40px;
-  
+  margin-bottom: 60px;
 }
 
 .category-buttons button {
-  padding: 10px 25px;
+  padding: 12px 30px;
   margin: 0 10px;
-  border-radius: 999px;
-  
-  border: none;
- 
+  border-radius: 0;
+  border: 2px solid #ffffff;
+  background: transparent;
+  color: #ffffff;
   cursor: pointer;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.category-buttons button:hover {
+  background: #ffffff;
+  color: #000000;
 }
 
 .category-buttons .active {
-  background: linear-gradient(90deg,#3b82f6,#a855f7);
-  color: white;
+  background: #ffffff;
+  color: #000000;
 }
