@@ -143,8 +143,9 @@
 
 .project-card img {
   width: 100%;
-  height: 350px;
-  object-fit: cover;
+  height: 200px;
+  object-fit: contain;
+  background: #000000;
   transition: transform 0.5s ease;
   filter: grayscale(100%);
 }
@@ -207,4 +208,26 @@
 .category-buttons .active {
   background: #ffffff;
   color: #000000;
+}
+
+/* Behance Icon Styling */
+.behance-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 32px;
+  height: 32px;
+  color: #000000;
+  z-index: 7;
+  transition: all 0.3s ease;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+.project-card:hover .behance-icon {
+  transform: scale(1.1);
+  color: #ffffff;
+}
+
+.behance-icon:hover {
+  color: #ffffff;
 }
