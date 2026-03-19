@@ -28,6 +28,11 @@ export default function Navbar() {
           </a>
         </li>
         <li>
+          <a href="#portfolio" onClick={handleLinkClick}>
+            YouTube
+          </a>
+        </li>
+        <li>
           <a href="#stats" onClick={handleLinkClick}>
             Impact
           </a>
