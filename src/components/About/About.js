@@ -23,11 +23,7 @@ export default function About() {
         <h2>Amaan Mirza</h2>
         <h4>Available for Freelance</h4>
 
-        <p>
-          Filmmaker, Editor & Visual Storyteller based in Mumbai.
-          I specialize in long-form content, short-form reels,
-          brand commercials, and cinematic storytelling.
-        </p>
+       
 
         <p>
           I'm a Mumbai based filmmaker, video editor, and content creator who believes storytelling should feel real not manufactured. From shooting short films on a phone with limited resources to crafting cinematic brand content and high retention YouTube videos, I focus on creativity over convenience.

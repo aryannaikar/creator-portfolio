@@ -22,8 +22,8 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
       >
         <h1>
-          Creating Content <br />
-          <span>That Converts</span>
+          Crafting Visuals <br />
+          <span>Built to be Remembered</span>
         </h1>
         <p>Creative direction, Video editing & Social media visuals </p>
       </motion.div>

@@ -5,7 +5,7 @@ import "./Stats.css";
 const stats = [
   {
     icon: <Eye />,
-    value: "1M+",
+    value: "20M+",
     label: "Views Across Platforms",
     color: "blue"
   },

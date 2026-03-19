@@ -5,24 +5,24 @@ import indoImg from "../Portfolio/indo.jpeg"; // Using pfp.png as placeholder fo
 
 const standouts = [
   {
-    title: "7 Businesses With 1$",
+    title: "Hide & Seek In India's Largest Mall",
+    link: "https://www.youtube.com/embed/8kwjpMdrqlo",
+    views: "Challenge / Entertainment"
+  },
+  {
+    title: "I Tried 7 Different Jobs For A Week",
+    link: "https://www.youtube.com/embed/X6RfFMPpzWM",
+    views: "Vlog / Experiment"
+  },
+  {
+    title: "Building 7 Businesses With 1$",
     link: "https://www.youtube.com/embed/VZeQ7OhI98g",
     views: "Education / Business"
   },
   {
-    title: "The Rock Dish Challenge",
-    link: "https://www.youtube.com/embed/JVP0Yv8_CtM",
-    views: "Entertainment / Food"
-  },
-  {
-    title: "Public Transportation Adventure",
+    title: "I Drove Every Public Transportation",
     link: "https://www.youtube.com/embed/PjymkHCu94o",
-    views: "Entertainment / Travel"
-  },
-  {
-    title: "College Sneak Routine",
-    link: "https://www.youtube.com/embed/ytFeH8_drZE",
-    views: "Vlog / Entertainment"
+    views: "Travel / Adventure"
   }
 ];
 
