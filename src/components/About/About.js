@@ -28,7 +28,7 @@ export default function About() {
         <p>
           I'm a Mumbai based filmmaker, video editor, and content creator who believes storytelling should feel real not manufactured. From shooting short films on a phone with limited resources to crafting cinematic brand content and high retention YouTube videos, I focus on creativity over convenience.
         </p>
-        <p>
+        <p> 
           I've worked across directing, cinematography, editing, and scripting, collaborating with influencers, producing sponsored projects, and managing social media campaigns with a premium, cinematic approach. My style is heavily inspired by character driven storytelling and grounded visuals, blending emotion, humor, and realism into every frame.
         </p>
         <p>

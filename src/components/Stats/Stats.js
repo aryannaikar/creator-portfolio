@@ -17,7 +17,7 @@ const stats = [
   },
   {
     icon: <Globe />,
-    value: "5+",
+    value: "50+",
     label: "Platforms & Brand Collaborations",
     color: "orange"
   }

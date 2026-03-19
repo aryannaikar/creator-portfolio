@@ -25,7 +25,7 @@ export default function Hero() {
           Crafting Visuals <br />
           <span>Built to be Remembered</span>
         </h1>
-        <p>Creative direction, Video editing & Social media visuals </p>
+        <p>Filmmaking, Video Editing & Content Creation. </p>
       </motion.div>
     </section>
   );

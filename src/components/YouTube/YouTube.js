@@ -37,7 +37,7 @@ const YouTube = () => {
           transition={{ duration: 0.6, ease: "easeOut" }}
           viewport={{ once: false, amount: 0.3 }}
         >
-          My YouTube Channel
+          MORE ABOUT ME
         </motion.h2>
 
         <div className="youtube-intro">
