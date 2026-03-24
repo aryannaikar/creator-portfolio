@@ -17,56 +17,56 @@ import cinematicImg from "../../assets/images/VIDEOGRAPHY.png";
 const projects = [
   {
     title: "Long Form",
-    category: "video",
+    category: "content",
     views: "Content Editing",
     img: longFormImg,
     link: "https://www.behance.net/gallery/181517213/Content-Editing"
   },
   {
     title: "Short Form",
-    category: "video",
+    category: "content",
     views: "Reels / Shorts",
     img: shortFormImg,
     link: "https://www.behance.net/gallery/181516523/Short-Form"
   },
   {
     title: "Brand Videos",
-    category: "video",
+    category: "commercial",
     views: "Commercial",
     img: brandVideosImg,
     link: "https://www.behance.net/gallery/211324401/Brand-videos"
   },
   {
     title: "Short Films",
-    category: "video",
+    category: "filmmaking",
     views: "Storytelling",
     img: shortFilmsImg,
     link: "https://www.behance.net/gallery/213844679/Short-Films"
   },
   {
     title: "Street Photography",
-    category: "design",
+    category: "visuals",
     views: "Photography",
     img: photographyImg,
     link: "https://www.behance.net/gallery/205588625/Street-Photography"
   },
   {
     title: "Cinematography",
-    category: "video",
+    category: "visuals",
     views: "Camera Work",
     img: cinematicImg,
     link: "https://www.behance.net/gallery/236982605/Cinematography"
   },
   {
     title: "Cinematics",
-    category: "video",
+    category: "visuals",
     views: "Visual Mood",
     img: cinematicsImg,
     link: "https://www.behance.net/gallery/198099505/Cinematics"
   },
   {
     title: "Music Videos",
-    category: "video",
+    category: "filmmaking",
     views: "Artist Projects",
     img: musicVideosImg,
     link: "https://www.behance.net/gallery/213820707/Music-videos"
@@ -80,14 +80,14 @@ const projects = [
   },
   {
     title: "Introduction",
-    category: "content",
+    category: "commercial",
     views: "Intro Edits",
     img: introductionImg,
     link: "https://www.behance.net/gallery/240644035/Introduction-videos"
   }
 ];
 
-const categories = ["all", "video", "design", "content"];
+const categories = ["all", "content", "filmmaking", "commercial", "visuals"];
 
 
 // Behance Icon Component

@@ -15,7 +15,7 @@ export default function Footer() {
     { href: "https://www.linkedin.com/in/amaanmirza1", label: "LinkedIn", icon: <Linkedin />, tooltip: "LinkedIn" },
     { href: "https://www.behance.net/amaanmirza3", label: "Behance", icon: <img src={behanceLogo} alt="Behance" className="behance-logo-img" />, tooltip: "Behance Portfolio" },
     { href: "https://youtube.com/@indominuss", label: "YouTube", icon: <Youtube />, tooltip: "YouTube Channel" },
-    { href: "mailto:amaanmirza0413@gmail.com", label: "Email", icon: <Mail />, tooltip: "amaanmirza0413@gmail.com" },
+    { href: "mailto:workwithindo@gmail.com", label: "Email", icon: <Mail />, tooltip: "workwithindo@gmail.com" },
     // { href: "https://wa.me/919833097622", label: "WhatsApp", icon: <MessageCircle />, tooltip: "WhatsApp Chat" }
   ];
 
@@ -50,14 +50,16 @@ export default function Footer() {
         ))}
       </motion.div>
 
-      <motion.p
+      <motion.div
+        className="footer-credits"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.3, ease: "easeOut" }}
         viewport={{ once: false, amount: 0.3 }}
       >
-        © 2026 Amaan Mirza. All rights reserved.
-      </motion.p>
+        <p>© 2026 Amaan Mirza. All rights reserved.</p>
+        <p>Website created by <a href="https://github.com/AryanNaikar" target="_blank" rel="noopener noreferrer" className="credit-link">AryanNaikar</a></p>
+      </motion.div>
 
       <motion.span
         className="back-to-top"
