@@ -4,7 +4,7 @@ import pfp from "../../assets/images/pfp.png"; // ✅ correct import
 
 export default function About() {
   return (
-    <section className="about">
+    <section id="about" className="about">
       <motion.img
         src={pfp}   // ✅ use variable here
         alt="Amaan Mirza"
@@ -37,7 +37,7 @@ export default function About() {
         </p>
 
         <a href="#contact" className="hire-btn">
-          <button>Hire Me</button>
+          Hire Me →
         </a>
 
       </motion.div>

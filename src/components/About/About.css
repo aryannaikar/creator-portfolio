@@ -20,9 +20,10 @@
   transform: scale(1.02);
 }
 
-.about h1 {
+.about h1,
+.about h2 {
   font-size: 60px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-weight: 900;
   color: #ffffff;
   font-family: 'Space Grotesk', sans-serif;
@@ -31,10 +32,10 @@
 }
 
 .about h4 {
-  font-size: 24px;
-  margin-bottom: 20px;
+  font-size: 20px;
+  margin-bottom: 25px;
   font-weight: 700;
-  color: #ffffff;
+  color: #ff0000;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -43,7 +44,30 @@
   color: #cccccc;
   line-height: 1.8;
   font-size: 16px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+.hire-btn {
+  display: inline-block;
+  background: #ffffff;
+  color: #000000;
+  padding: 16px 36px;
+  border-radius: 0;
+  font-weight: 800;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 2px solid #ffffff;
+  transition: all 0.3s ease;
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+.hire-btn:hover {
+  background: #000000;
+  color: #ffffff;
+  box-shadow: 6px 6px 0 #ffffff;
+  transform: translate(-2px, -2px);
 }
 
 .about ul {
@@ -75,7 +99,8 @@
     text-align: center;
   }
 
-  .about h1 {
+  .about h1,
+  .about h2 {
     font-size: 40px;
   }
 

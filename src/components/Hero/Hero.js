@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import "./Hero.css";
 import heroVideo from "../../assets/videos/website video.mp4";
+import heroPoster from "../../assets/images/hero-poster.jpg";
 
 export default function Hero() {
   return (
@@ -10,6 +11,8 @@ export default function Hero() {
         muted
         loop
         playsInline
+        preload="auto"
+        poster={heroPoster}
         className="hero-video-bg"
         src={heroVideo}
       />
