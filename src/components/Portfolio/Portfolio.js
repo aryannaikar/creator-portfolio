@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import "./Portfolio.css";
 
@@ -9,8 +9,7 @@ import musicVideosImg from "../../assets/images/MUSIC VIDEOS.png";
 import photographyImg from "../../assets/images/PHOTOGRAPHY.png";
 import cinematicsImg from "../../assets/images/cinematics.png";
 import introductionImg from "../../assets/images/introduction.png";
-import shortFilmsImg from "../../assets/images/short films.png";
-import shortFormImg from "../../assets/images/short form.png";
+import shortFormImg from "../../assets/images/short form.jpg";
 import longFormImg from "../../assets/images/long form.png";
 import cinematicImg from "../../assets/images/VIDEOGRAPHY.png";
 
@@ -35,13 +34,6 @@ const projects = [
     views: "Commercial",
     img: brandVideosImg,
     link: "https://www.behance.net/gallery/211324401/Brand-videos"
-  },
-  {
-    title: "Short Films",
-    category: "filmmaking",
-    views: "Storytelling",
-    img: shortFilmsImg,
-    link: "https://www.behance.net/gallery/213844679/Short-Films"
   },
   {
     title: "Street Photography",
@@ -87,9 +79,6 @@ const projects = [
   }
 ];
 
-const categories = ["all", "content", "filmmaking", "commercial", "visuals"];
-
-
 // Behance Icon Component
 const BehanceIcon = () => (
   <svg
@@ -102,15 +91,7 @@ const BehanceIcon = () => (
   </svg>
 );
 
-
 const Projects = () => {
-  const [activeCategory, setActiveCategory] = useState("all");
-
-  const filteredProjects =
-    activeCategory === "all"
-      ? projects
-      : projects.filter(p => p.category === activeCategory);
-
   return (
     <section id="portfolio" className="projects-section">
       <motion.h2
@@ -123,27 +104,8 @@ const Projects = () => {
         My Work
       </motion.h2>
 
-      {/* CATEGORY BUTTONS */}
-      <motion.div
-        className="category-buttons"
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.2, ease: "easeOut" }}
-        viewport={{ once: false, amount: 0.3 }}
-      >
-        {categories.map((cat, index) => (
-          <button
-            key={index}
-            className={activeCategory === cat ? "active" : ""}
-            onClick={() => setActiveCategory(cat)}
-          >
-            {cat.toUpperCase()}
-          </button>
-        ))}
-      </motion.div>
-
       <div className="projects-grid">
-        {filteredProjects.map((project, index) => {
+        {projects.map((project, index) => {
           return (
             <motion.a
               key={index}

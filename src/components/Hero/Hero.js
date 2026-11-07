@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import "./Hero.css";
-import heroVideo from "../../assets/videos/ESDEE EDIT~2.mp4";
+import heroVideo from "../../assets/videos/website video.mp4";
 
 export default function Hero() {
   return (

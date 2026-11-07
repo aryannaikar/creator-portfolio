@@ -23,18 +23,13 @@ export default function Navbar() {
 
       <ul className={`nav-links ${open ? "open" : ""}`}>
         <li>
-          <a href="#portfolio" onClick={handleLinkClick}>
+          <a
+            href="https://www.behance.net/amaanmirza3"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={handleLinkClick}
+          >
             Portfolio
-          </a>
-        </li>
-        <li>
-          <a href="#youtube" onClick={handleLinkClick}>
-            YouTube
-          </a>
-        </li>
-        <li>
-          <a href="#stats" onClick={handleLinkClick}>
-            Impact
           </a>
         </li>
         <li>
