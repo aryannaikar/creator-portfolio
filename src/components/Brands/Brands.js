@@ -47,7 +47,7 @@ const brandProjects = [
   {
     id: "techburner-yt",
     brand: "TECHBURNER",
-    title: "TECHBURNER FEATURE",
+    title: "7 Insane Tech Made by Indians 🇮🇳",
     tag: "YOUTUBE EDIT",
     format: "HORIZONTAL · 16:9",
     aspect: "horizontal",
