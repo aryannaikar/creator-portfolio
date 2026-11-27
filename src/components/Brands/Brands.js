@@ -38,7 +38,7 @@ const brandProjects = [
   {
     id: "supertalks-yt",
     brand: "SUPERTALKS",
-    title: "SUPERTALKS PODCAST",
+    title: "India's Top Astrologer Predicts 2027 for India, America, Wars & Sanatan | Manoj x Raghav",
     tag: "PODCAST TRAILER",
     format: "HORIZONTAL · 16:9",
     aspect: "horizontal",
@@ -58,7 +58,7 @@ const brandProjects = [
   {
     id: "amazon-music-h",
     brand: "AMAZON MUSIC",
-    title: "AMAZON MUSIC HORIZONTAL",
+    title: "Amazon Music – Theatrical Campaign Film",
     tag: "HIGHLIGHT FILM",
     format: "HORIZONTAL · 16:9",
     aspect: "horizontal",
@@ -99,7 +99,7 @@ const brandProjects = [
   {
     id: "flipkart-minutes",
     brand: "FLIPKART MINUTES",
-    title: "BURNERBITS CAMPAIGN",
+    title: "Burnerbits X Flipkart minutes",
     tag: "COMMERCIAL REEL",
     format: "VERTICAL · 9:16",
     aspect: "vertical",
@@ -109,7 +109,7 @@ const brandProjects = [
   {
     id: "amazon-music-v2",
     brand: "AMAZON MUSIC",
-    title: "ARTIST SPOTLIGHT",
+    title: "Yash X Ramayana Promotional Film",
     tag: "SOCIAL CONTENT",
     format: "VERTICAL · 9:16",
     aspect: "vertical",
@@ -129,7 +129,7 @@ const brandProjects = [
   {
     id: "tb-vertical",
     brand: "TECHBURNER",
-    title: "TECHBURNER REEL",
+    title: "Amazon Great Indian Festival",
     tag: "SHORT FORM",
     format: "VERTICAL · 9:16",
     aspect: "vertical",
