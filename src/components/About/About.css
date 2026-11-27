@@ -47,6 +47,14 @@
   margin-bottom: 20px;
 }
 
+.about-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  margin-top: 15px;
+}
+
 .hire-btn {
   display: inline-block;
   background: #ffffff;
@@ -59,7 +67,6 @@
   letter-spacing: 1px;
   border: 2px solid #ffffff;
   transition: all 0.3s ease;
-  margin-top: 15px;
   text-decoration: none;
 }
 
@@ -110,5 +117,9 @@
 
   .about li::before {
     display: none;
+  }
+
+  .about-buttons {
+    align-items: center;
   }
 }

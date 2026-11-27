@@ -36,9 +36,19 @@ export default function About() {
           make people feel something before they even realize why.
         </p>
 
-        <a href="#contact" className="hire-btn">
-          Hire Me →
-        </a>
+        <div className="about-buttons">
+          <a href="#contact" className="hire-btn">
+            Hire Me →
+          </a>
+          <a
+            href="https://www.behance.net/amaanmirza3"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hire-btn"
+          >
+            Full Portfolio →
+          </a>
+        </div>
 
       </motion.div>
     </section>
