@@ -11,6 +11,7 @@ import raviTn from "../../assets/images/brands/ravi-tn.jpg";
 import flipkartTn from "../../assets/images/brands/flipkart-tn.jpg";
 import rkTn from "../../assets/images/brands/rk-tn.jpg";
 import yashTn from "../../assets/images/brands/yash-tn.jpg";
+import bmsDramaUtsav from "../../assets/images/brands/bms-drama-utsav.jpg";
 
 const brandProjects = [
   // Main Horizontal Films
@@ -122,7 +123,7 @@ const brandProjects = [
     tag: "MOTION GRAPHICS",
     format: "VERTICAL · 9:16",
     aspect: "vertical",
-    thumbnail: rkTn,
+    thumbnail: bmsDramaUtsav,
     embedUrl: "https://drive.google.com/file/d/1GUCnylFoU-3K181Aw6SPqtOYbG5e1sHw/preview",
   },
   {
