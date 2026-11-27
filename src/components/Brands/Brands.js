@@ -9,6 +9,7 @@ import lorealTn from "../../assets/images/brands/loreal-tn.jpg";
 import tbTn from "../../assets/images/brands/tb-tn.jpg";
 import arTn from "../../assets/images/brands/ar-tn.jpg";
 import raviTn from "../../assets/images/brands/ravi-tn.jpg";
+import flipkartTn from "../../assets/images/brands/flipkart-tn.jpg";
 import rkTn from "../../assets/images/brands/rk-tn.jpg";
 import yashTn from "../../assets/images/brands/yash-tn.jpg";
 
@@ -88,11 +89,11 @@ const brandProjects = [
   {
     id: "amazon-music-v1",
     brand: "AMAZON MUSIC",
-    title: "AMAZON MUSIC SERIES",
+    title: "Ranbir Kapoor X Ramayana Promotional Film",
     tag: "BRAND CONTENT",
     format: "VERTICAL · 9:16",
     aspect: "vertical",
-    thumbnail: arTn,
+    thumbnail: rkTn,
     embedUrl: "https://drive.google.com/file/d/1JtlC5aEG5Dng3byuOG2YPcYxwQcl5le-/preview",
   },
   {
@@ -102,7 +103,7 @@ const brandProjects = [
     tag: "COMMERCIAL REEL",
     format: "VERTICAL · 9:16",
     aspect: "vertical",
-    thumbnail: raviTn,
+    thumbnail: flipkartTn,
     embedUrl: "https://drive.google.com/file/d/1pvvQ7PoxVehdbPnsgagirFyq_XncmfIn/preview",
   },
   {
@@ -118,7 +119,7 @@ const brandProjects = [
   {
     id: "bookmyshow-cal",
     brand: "BOOKMYSHOW",
-    title: "CALENDAR CAMPAIGN",
+    title: "BookMyShow X The Drama Utsav",
     tag: "MOTION GRAPHICS",
     format: "VERTICAL · 9:16",
     aspect: "vertical",
@@ -134,6 +135,16 @@ const brandProjects = [
     aspect: "vertical",
     thumbnail: tbTn,
     embedUrl: "https://drive.google.com/file/d/1Qy6V3Ubn3WjYbMJkHLxzdF-dGUZ-N9dq/preview",
+  },
+  {
+    id: "ravi-dubey-ramayana",
+    brand: "AMAZON MUSIC",
+    title: "Ravi Dubey X Ramayana Promotional Film",
+    tag: "PROMOTIONAL FILM",
+    format: "VERTICAL · 9:16",
+    aspect: "vertical",
+    thumbnail: raviTn,
+    embedUrl: "https://drive.google.com/file/d/1TfmW4a4Y0NQCRHry0THcadfH7WayTd0v/preview",
   },
 ];
 
