@@ -51,7 +51,7 @@ const brandProjects = [
     tag: "YOUTUBE EDIT",
     format: "HORIZONTAL · 16:9",
     aspect: "horizontal",
-    thumbnail: tbTn,
+    thumbnail: "https://img.youtube.com/vi/YakYZeChGX0/maxresdefault.jpg",
     embedUrl: "https://www.youtube.com/embed/YakYZeChGX0?start=107&autoplay=1",
   },
   {
@@ -124,6 +124,16 @@ const brandProjects = [
     aspect: "vertical",
     thumbnail: rkTn,
     embedUrl: "https://drive.google.com/file/d/1GUCnylFoU-3K181Aw6SPqtOYbG5e1sHw/preview",
+  },
+  {
+    id: "tb-vertical",
+    brand: "TECHBURNER",
+    title: "TECHBURNER REEL",
+    tag: "SHORT FORM",
+    format: "VERTICAL · 9:16",
+    aspect: "vertical",
+    thumbnail: tbTn,
+    embedUrl: "https://drive.google.com/file/d/1Qy6V3Ubn3WjYbMJkHLxzdF-dGUZ-N9dq/preview",
   },
 ];
 
