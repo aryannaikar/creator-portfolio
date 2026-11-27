@@ -6,7 +6,6 @@ import "./Portfolio.css";
 import brandVideosImg from "../../assets/images/BRAND VIDEOS.png";
 import gamingImg from "../../assets/images/GAMING.png";
 import musicVideosImg from "../../assets/images/MUSIC VIDEOS.png";
-import photographyImg from "../../assets/images/PHOTOGRAPHY.png";
 import cinematicsImg from "../../assets/images/cinematics.png";
 import introductionImg from "../../assets/images/introduction.png";
 import shortFormImg from "../../assets/images/short form.jpg";
@@ -34,13 +33,6 @@ const projects = [
     views: "Commercial",
     img: brandVideosImg,
     link: "https://www.behance.net/gallery/211324401/Brand-videos"
-  },
-  {
-    title: "Street Photography",
-    category: "visuals",
-    views: "Photography",
-    img: photographyImg,
-    link: "https://www.behance.net/gallery/205588625/Street-Photography"
   },
   {
     title: "Cinematography",
