@@ -7,7 +7,6 @@ import garnierVertical from "../../assets/images/brands/garnier-vertical.jpg";
 import horizontalTn from "../../assets/images/brands/horizontal-tn.jpg";
 import lorealTn from "../../assets/images/brands/loreal-tn.jpg";
 import tbTn from "../../assets/images/brands/tb-tn.jpg";
-import arTn from "../../assets/images/brands/ar-tn.jpg";
 import raviTn from "../../assets/images/brands/ravi-tn.jpg";
 import flipkartTn from "../../assets/images/brands/flipkart-tn.jpg";
 import rkTn from "../../assets/images/brands/rk-tn.jpg";
