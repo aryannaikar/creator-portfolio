@@ -13,6 +13,7 @@ import rkTn from "../../assets/images/brands/rk-tn.jpg";
 import yashTn from "../../assets/images/brands/yash-tn.jpg";
 
 const brandProjects = [
+  // Main Horizontal Films
   {
     id: "spotify-ipop",
     brand: "SPOTIFY",
@@ -23,6 +24,47 @@ const brandProjects = [
     thumbnail: "https://img.youtube.com/vi/hSLok0qZLDE/maxresdefault.jpg",
     embedUrl: "https://www.youtube.com/embed/hSLok0qZLDE?autoplay=1",
   },
+  {
+    id: "garnier-horizontal",
+    brand: "GARNIER",
+    title: "GARNIER CAMPAIGN FILM",
+    tag: "BRAND FILM",
+    format: "HORIZONTAL · 16:9",
+    aspect: "horizontal",
+    thumbnail: garnierHorizontal,
+    embedUrl: "https://drive.google.com/file/d/1ngkvC8qP_jYsNky5YjYNibHkVOh7WuOM/preview",
+  },
+  {
+    id: "supertalks-yt",
+    brand: "SUPERTALKS",
+    title: "SUPERTALKS PODCAST",
+    tag: "PODCAST TRAILER",
+    format: "HORIZONTAL · 16:9",
+    aspect: "horizontal",
+    thumbnail: "https://img.youtube.com/vi/dEsH8AyZ63A/maxresdefault.jpg",
+    embedUrl: "https://www.youtube.com/embed/dEsH8AyZ63A?autoplay=1",
+  },
+  {
+    id: "techburner-yt",
+    brand: "TECHBURNER",
+    title: "TECHBURNER FEATURE",
+    tag: "YOUTUBE EDIT",
+    format: "HORIZONTAL · 16:9",
+    aspect: "horizontal",
+    thumbnail: tbTn,
+    embedUrl: "https://www.youtube.com/embed/YakYZeChGX0?start=107&autoplay=1",
+  },
+  {
+    id: "amazon-music-h",
+    brand: "AMAZON MUSIC",
+    title: "AMAZON MUSIC HORIZONTAL",
+    tag: "HIGHLIGHT FILM",
+    format: "HORIZONTAL · 16:9",
+    aspect: "horizontal",
+    thumbnail: horizontalTn,
+    embedUrl: "https://drive.google.com/file/d/1IelHhPcIAEShZkTvH8AZBo0alFvs2TPC/preview",
+  },
+  // Vertical Projects
   {
     id: "garnier-vertical",
     brand: "GARNIER",
@@ -42,26 +84,6 @@ const brandProjects = [
     aspect: "vertical",
     thumbnail: lorealTn,
     embedUrl: "https://drive.google.com/file/d/15IkwEzygbzY1qocrgA86XsFhgGM9ztfx/preview",
-  },
-  {
-    id: "techburner-yt",
-    brand: "TECHBURNER",
-    title: "TECHBURNER FEATURE",
-    tag: "YOUTUBE EDIT",
-    format: "VERTICAL · 9:16",
-    aspect: "vertical",
-    thumbnail: tbTn,
-    embedUrl: "https://www.youtube.com/embed/YakYZeChGX0?start=107&autoplay=1",
-  },
-  {
-    id: "supertalks-yt",
-    brand: "SUPERTALKS",
-    title: "SUPERTALKS PODCAST",
-    tag: "PODCAST TRAILER",
-    format: "HORIZONTAL · 16:9",
-    aspect: "horizontal",
-    thumbnail: "https://img.youtube.com/vi/dEsH8AyZ63A/maxresdefault.jpg",
-    embedUrl: "https://www.youtube.com/embed/dEsH8AyZ63A?autoplay=1",
   },
   {
     id: "amazon-music-v1",
@@ -90,7 +112,7 @@ const brandProjects = [
     tag: "SOCIAL CONTENT",
     format: "VERTICAL · 9:16",
     aspect: "vertical",
-    thumbnail: rkTn,
+    thumbnail: yashTn,
     embedUrl: "https://drive.google.com/file/d/10qdEGZFSoj9R_y3PSe1P_SzQTcc7a2uS/preview",
   },
   {
@@ -100,28 +122,8 @@ const brandProjects = [
     tag: "MOTION GRAPHICS",
     format: "VERTICAL · 9:16",
     aspect: "vertical",
-    thumbnail: yashTn,
+    thumbnail: rkTn,
     embedUrl: "https://drive.google.com/file/d/1GUCnylFoU-3K181Aw6SPqtOYbG5e1sHw/preview",
-  },
-  {
-    id: "garnier-horizontal",
-    brand: "GARNIER",
-    title: "GARNIER CAMPAIGN FILM",
-    tag: "BRAND FILM",
-    format: "HORIZONTAL · 16:9",
-    aspect: "horizontal",
-    thumbnail: garnierHorizontal,
-    embedUrl: "https://drive.google.com/file/d/1ngkvC8qP_jYsNky5YjYNibHkVOh7WuOM/preview",
-  },
-  {
-    id: "amazon-music-h",
-    brand: "AMAZON MUSIC",
-    title: "AMAZON MUSIC HORIZONTAL",
-    tag: "HIGHLIGHT FILM",
-    format: "HORIZONTAL · 16:9",
-    aspect: "horizontal",
-    thumbnail: horizontalTn,
-    embedUrl: "https://drive.google.com/file/d/1IelHhPcIAEShZkTvH8AZBo0alFvs2TPC/preview",
   },
 ];
 
