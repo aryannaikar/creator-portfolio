@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Stats from "./components/Stats/Stats";
 import Portfolio from "./components/Portfolio/Portfolio";
+import Brands from "./components/Brands/Brands";
 import YouTube from "./components/YouTube/YouTube";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
@@ -18,6 +19,7 @@ function App() {
         <Hero />
         <Stats />
         <Portfolio />
+        <Brands />
         <YouTube />
         <About />
         <Contact />

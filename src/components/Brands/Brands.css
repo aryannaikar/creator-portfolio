@@ -1,0 +1,261 @@
+.brands {
+  background: #000000;
+  padding: 100px 40px;
+}
+
+.brands-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.brands-header h2 {
+  font-size: 64px;
+  font-weight: 900;
+  color: #ffffff;
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: -2px;
+  margin-bottom: 10px;
+}
+
+.brands-subtitle {
+  font-size: 14px;
+  font-weight: 700;
+  color: #aaaaaa;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+
+.brands-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  max-width: 1300px;
+  margin: 0 auto;
+  grid-auto-flow: dense;
+}
+
+.brand-card {
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #ffffff;
+  background: #0a0a0a;
+  cursor: pointer;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.brand-card--vertical {
+  aspect-ratio: 9 / 14;
+}
+
+.brand-card--horizontal {
+  grid-column: span 2;
+  aspect-ratio: 16 / 9;
+}
+
+.brand-card:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 8px 8px 0 #ffffff;
+}
+
+.brand-card-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+  z-index: 0;
+}
+
+.brand-card:hover .brand-card-img {
+  transform: scale(1.06);
+}
+
+.brand-card-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.65) 0%,
+    rgba(0, 0, 0, 0.15) 45%,
+    rgba(0, 0, 0, 0.88) 100%
+  );
+  z-index: 1;
+}
+
+.brand-card-top {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 20px;
+}
+
+.brand-name-badge {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.brand-play-badge {
+  width: 32px;
+  height: 32px;
+  border: 1.5px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.55);
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
+.brand-card:hover .brand-play-badge {
+  background: #ffffff;
+  color: #000000;
+}
+
+.brand-card-bottom {
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+  text-align: left;
+}
+
+.brand-card-bottom h3 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 1.15;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.brand-tag {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #cccccc;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.brand-format-pill {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  border: 1.5px solid #ffffff;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.65);
+  text-transform: uppercase;
+}
+
+/* Modal */
+.brand-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.88);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.brand-modal-content {
+  width: 100%;
+  max-width: 900px;
+  background: #0a0a0a;
+  border: 2px solid #ffffff;
+  box-shadow: 10px 10px 0 #ffffff;
+}
+
+.brand-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  border-bottom: 1px solid #333333;
+}
+
+.brand-modal-brand {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #ff0000;
+  text-transform: uppercase;
+}
+
+.brand-modal-header h4 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 2px 0 0;
+}
+
+.brand-modal-close {
+  background: #ffffff;
+  color: #000000;
+  border: none;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  font-size: 18px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.brand-modal-iframe-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000000;
+}
+
+.brand-modal-iframe-wrap iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+@media (max-width: 1024px) {
+  .brands-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .brands {
+    padding: 70px 20px;
+  }
+
+  .brands-header h2 {
+    font-size: 42px;
+  }
+
+  .brands-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .brand-card--horizontal {
+    grid-column: span 1;
+  }
+}
